@@ -5,6 +5,14 @@ color: maroon;
 }
 h1
 {
-color: midnightblue;
+color: white;
 
+}
+p
+{
+    color: lightgray;
+}
+body 
+{
+    background-color: darkgray;
 }
