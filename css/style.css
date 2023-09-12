@@ -1,1 +1,10 @@
-head
+h1.special-heading
+{
+color: maroon;
+
+}
+h1
+{
+color: midnightblue;
+
+}
