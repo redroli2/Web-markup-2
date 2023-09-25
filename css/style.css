@@ -8,3 +8,21 @@ h1
 color: midnightblue;
 
 }
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    }
+section{
+    display: flex;
+    width: 1000px;
+    height: 800px;
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+
+}
