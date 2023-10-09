@@ -5,11 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+    </style>
 </head>
-<body><section> 
-    <article class="box">A</article>
-    <article class="box">B</article>
-    <article class="box">C</article>
-</section>
+<body>
+    <header></header>
+    <div id="overlay" style="display: none;"></div>
+    <div id="cookie-consent" style="display: none;">
+        <p>We use cookies to improve your experience. By using our site, you agree to our use of cookies.</p>
+        <button id="accept">Accept</button>
+    </div>
+    <section> 
+        <article class="box">A</article>
+        <article class="box">B</article>
+        <article class="box">C</article>
+    </section>
+    <script>
+        const cookieConsent = document.getElementById('cookie-consent');
+        const acceptButton = document.getElementById('accept');
+        const overlay = document.getElementById('overlay');
+
+        acceptButton.onclick = function() {
+            cookieConsent.style.display = 'none';
+            overlay.style.display = 'none';
+        };
+
+        setInterval(function() {
+            cookieConsent.style.display = 'block';
+            overlay.style.display = 'block';
+        }, 7000);
+    </script>
+    <footer></footer>
 </body>
 </html>
