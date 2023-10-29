@@ -1,0 +1,5 @@
+Student name: Roland Papp
+Student number: 715118
+Student class: HAITFT1D
+GitHub Repository: your github repository URL
+GitHub Pages URL: your github pages URL
