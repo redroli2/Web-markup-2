@@ -1,5 +1,0 @@
-Student name: Roland Papp
-Student number: 715118
-Student class: HAITFT1D
-GitHub Repository: https://github.com/redroli2/Web-markup-2/tree/main
-GitHub Pages URL: https://redroli2.github.io/Web-markup-2/
